@@ -28,7 +28,7 @@ class NewWindow(QMainWindow):
         mainLayout.addWidget(b2)
         self.setLayout(mainLayout)
         self.setGeometry(500, 500, 500, 500)
-        self.setWindowTitle('Absolute')
+        self.setWindowTitle('Enter Key')
         self.show()
 
 class Example(QMainWindow):
@@ -59,7 +59,7 @@ class Example(QMainWindow):
         self.passIn.move(220,140)
         self.bqt.move(220,200)
         self.setGeometry(300, 300, 550, 300)
-        self.setWindowTitle('Review')
+        self.setWindowTitle('Login')
         self.show()
         self.bqt.clicked.connect(self.addwindow)
     @pyqtSlot()
